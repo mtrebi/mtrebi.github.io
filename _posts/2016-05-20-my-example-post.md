@@ -12,10 +12,14 @@ Might you have an include in your theme? Why not try it here!
 No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.
 
 <div class="pagination">  
-  {% if page.previous.url %}  
-    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>  
-  {% endif %}  
-  {% if page.next.url %}  
-    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>  
-  {% endif %}  
+    <div class="prev" align=left>
+      {% if page.previous.url %}  
+        <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>  
+      {% endif %}  
+     </div>
+    <div class="prev" align=right>
+      {% if page.next.url %}  
+        <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>  
+      {% endif %}  
+    </div>
 </div>  
