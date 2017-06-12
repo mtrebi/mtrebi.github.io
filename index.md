@@ -1,6 +1,5 @@
 ---
-layout: page
-title: Home
+layout: home
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac mauris quis ligula blandit vulputate in sed nulla. Cras at pulvinar tellus. Quisque malesuada velit sapien, quis consequat elit venenatis lobortis. Nulla in lorem nec erat vestibulum pretium at vel quam. Suspendisse quis turpis et lorem placerat rutrum. Aenean placerat dignissim rhoncus. Phasellus posuere tellus arcu, nec mollis quam maximus nec. Nulla gravida neque sed ex semper egestas. Nam tristique eleifend urna ut elementum.
