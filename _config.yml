@@ -17,6 +17,8 @@ minima:
 #header_pages:
 # - about.html
 
+pagination: 2
+
 # Build settings
 markdown: kramdown
 theme: minima
