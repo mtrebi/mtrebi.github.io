@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Linkedin icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Footer---Updated-Links-as-of-1.11.17" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer---Larger-Size-Breakpoints" transform="translate(-266.000000, -345.000000)" fill="#757575">
+            <g id="Footer" transform="translate(53.000000, 125.000000)">
+                <g id="1st-column" transform="translate(98.000000, 139.000000)">
+                    <g id="Social-icons" transform="translate(0.000000, 80.000000)">
+                        <path d="M131,16.293 L127.57,16.293 L127.57,10.773 C127.57,9.387 127.074,8.439 125.832,8.439 C124.886,8.439 124.32,9.08 124.072,9.695 C123.981,9.916 123.959,10.221 123.959,10.531 L123.959,16.293 L120.53,16.293 C120.53,16.293 120.574,6.943 120.53,5.977 L123.959,5.977 L123.959,7.438 C124.416,6.732 125.23,5.734 127.051,5.734 C129.307,5.734 131,7.207 131,10.377 L131,16.293 Z M116.917,4.566 L116.895,4.566 C115.744,4.566 115,3.773 115,2.783 C115,1.772 115.768,1 116.939,1 C118.113,1 118.836,1.772 118.857,2.783 C118.857,3.773 118.113,4.566 116.917,4.566 L116.917,4.566 Z M115.202,16.293 L118.633,16.293 L118.633,5.977 L115.202,5.977 L115.202,16.293 Z" id="Linkedin-icon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
