@@ -1,7 +1,9 @@
 title: Mariano Trebino 
 email: marianotrebino@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is my personal Github page...TODO
+  This is my personal Github page. Here you can find information
+  about me, my last projects and posts (mostly) about Computer Science
+  and games 
 
 twitter_username: m_treb
 github_username:  mtrebi
@@ -18,6 +20,7 @@ minima:
 # - about.html
 
 paginate: 2
+paginate_path: "/blog/page:num"
 
 # Build settings
 markdown: kramdown
