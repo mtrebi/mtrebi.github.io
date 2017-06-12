@@ -88,14 +88,14 @@ Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing 
 Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.
 
 <div class="pagination">  
-  <div class="prev" align="left">
-    {% if page.previous.url %}  
-      <a class="prev" href="{{page.previous.url}}">&laquo; {{page.next.title}}</a>  
+  <div class="next" align="left">
+    {% if page.next.url %}  
+      <a class="next" href="{{page.next.url}}">&laquo; {{page.next.title}}</a>  
     {% endif %}  
    </div>
   <div class="prev" align="right">
-    {% if page.next.url %}  
-      <a class="next" href="{{page.next.url}}">{{page.prev.title}} &raquo;</a>  
+    {% if page.prev.url %}  
+      <a class="prev" href="{{page.prev.url}}">{{page.prev.title}} &raquo;</a>  
     {% endif %}  
   </div>
 </div>   
