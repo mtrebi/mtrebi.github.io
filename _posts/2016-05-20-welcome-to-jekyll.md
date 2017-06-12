@@ -24,12 +24,12 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 <div class="pagination">  
   <div class="prev" align="left">
     {% if page.previous.url %}  
-      <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>  
+      <a class="prev" href="{{page.previous.url}}">&laquo; {{page.next.title}}</a>  
     {% endif %}  
    </div>
   <div class="prev" align="right">
     {% if page.next.url %}  
-      <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>  
+      <a class="next" href="{{page.next.url}}">{{page.prev.title}} &raquo;</a>  
     {% endif %}  
   </div>
 </div>   
