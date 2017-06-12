@@ -29,7 +29,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
    </div>
   <div class="prev" align="right">
     {% if page.prev.url %}  
-      <a class="prev" href="{{page.prev.url}}">{{page.prev.title}} &raquo;</a>  
+      <a class="prev" href="{{page.prev.url}}">&raquo; {{page.prev.title}}</a>  
     {% endif %}  
   </div>
 </div>   
