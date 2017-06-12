@@ -86,3 +86,12 @@ Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet b
 Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
 Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.
+
+<div class="pagination">  
+  {% if page.previous.url %}  
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>  
+  {% endif %}  
+  {% if page.next.url %}  
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>  
+  {% endif %}  
+</div>  
