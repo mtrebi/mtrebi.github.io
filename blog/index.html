@@ -23,8 +23,6 @@ layout: default
 	<div class="pagination" align="center">
 	  {% if paginator.previous_page %}
 	    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-	  {% else %}
-	    <span>&laquo; Prev</span>
 	  {% endif %}
 
 	  {% for page in (1..paginator.total_pages) %}
@@ -39,8 +37,6 @@ layout: default
 
 	  {% if paginator.next_page %}
 	    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-	  {% else %}
-	    <span>Next &raquo;</span>
 	  {% endif %}
 	</div>
 	{% endif %}
