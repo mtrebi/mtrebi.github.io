@@ -8,45 +8,45 @@ meta: "Girona"
 
 The __rendering equation__ is a function to describe the behavior that light should follow in order to create physically-realistic images. If a rendering satisfy this function, that means that is simulating the light as it behaves in our real world (almost):
 
-<p align="center">  <img src="https://github.com/mtrebi/mtrebi.github.io/blob/master/assets/2017-01-18-the-rendering-equation/equation_complete.PNG"> </p>
-
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-18-the-rendering-equation/equation_complete.PNG"> </p>
+https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-18-the-rendering-equation/
 At first, this equation may seem complex, but it is quite easy to understand. However, its computation it's way more complicated. Let's start analyzing part by part:
 
-<p align="center">  <img src="https://github.com/mtrebi/mtrebi.github.io/blob/master/assets/2017-01-18-the-rendering-equation/equation_left.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-18-the-rendering-equation/equation_left.PNG"> </p>
 
 Radiance leaving at surface point X in direction Wout. If X is a visible point and Wout points to the eye (or camera) then, this is how we determine the pixel color.
 
-<p align="center">  <img src="https://github.com/mtrebi/mtrebi.github.io/blob/master/assets/2017-01-18-the-rendering-equation/equation_emissive.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-18-the-rendering-equation/equation_emissive.PNG"> </p>
 
 
 Radiance emitted at point X in direction Wout. For non-emmisive objects this is zero.
 
-<p align="center">  <img src="https://github.com/mtrebi/mtrebi.github.io/blob/master/assets/2017-01-18-the-rendering-equation/equation_integral.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-18-the-rendering-equation/equation_integral.PNG"> </p>
 
 This is probably the most confusing part so let's split it again:
 
-<p align="center">  <img src="https://github.com/mtrebi/mtrebi.github.io/blob/master/assets/2017-01-18-the-rendering-equation/equation_integral_summary.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-18-the-rendering-equation/equation_integral_summary.PNG"> </p>
 
 This calculates how much radiance is reflected towards Wout. For now we have that:
 
-<p align="center">  <img src="https://github.com/mtrebi/mtrebi.github.io/blob/master/assets/2017-01-18-the-rendering-equation/equation_integral_explained.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-18-the-rendering-equation/equation_integral_explained.PNG"> </p>
 
 Then, the ingteral integrates (hoho) the light of all possible incoming directions Win in the hemisphere Ω and we end up with:
 
-<p align="center">  <img src="https://github.com/mtrebi/mtrebi.github.io/blob/master/assets/2017-01-18-the-rendering-equation/equation_integral_explained2.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-18-the-rendering-equation/equation_integral_explained2.PNG"> </p>
 
 This means that for each Win we determine how much it contributes to the amount of light reflected in the Wout direction.
 
-<p align="center">  <img src="https://github.com/mtrebi/mtrebi.github.io/blob/master/assets/2017-01-18-the-rendering-equation/equation_light_incoming.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-18-the-rendering-equation/equation_light_incoming.PNG"> </p>
 
 Radiance incident at surface point X coming from Win direction.
 
-<p align="center">  <img src="https://github.com/mtrebi/mtrebi.github.io/blob/master/assets/2017-01-18-the-rendering-equation/equation_brdf.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-18-the-rendering-equation/equation_brdf.PNG"> </p>
 
 
 Radiance at point X from Win direction that is reflected in Wout direction (see [The BRDF post](https://mtrebi.github.io/2017/01/18/the-brdf.html))
 
-<p align="center">  <img src="https://github.com/mtrebi/mtrebi.github.io/blob/master/assets/2017-01-18-the-rendering-equation/equation_lambert.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-18-the-rendering-equation/equation_lambert.PNG"> </p>
 
 The dot product of this two normalized vectors (Win is negated because it's an incoming ray and it should be outgoing) returns its angle. When this angle is 90º (vectors are perpendicular) all the radiance from Win is received by the object. However, when the angle is 0º (vectors are parallel), the radiance is minimized at it's equal to zero. This is the [Lambert factor](https://en.wikipedia.org/wiki/Lambert's_cosine_law). And that's all. It's very intuitive but it may seem scary at first. 
 
