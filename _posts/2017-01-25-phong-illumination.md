@@ -28,7 +28,7 @@ The ambient component represents the light intensity equivalent to indirect ligh
 
 This is just a constant Ka that weights the importance of the ambient component in the equation and Ca is the ambient light color that is a RGB value. The ambient component is the minimum scene light that arrives at the object surface. In this equation, the ambient component is independent of the number or intensity of lights. However, we could calculate K based on the number of lights in the scene to produce a more realistic result.
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-25-phong-illumination/phong_ambient_example.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-25-phong-illumination/phong_ambient_example.png"> </p>
 
 ## Diffuse component
 
@@ -44,7 +44,7 @@ As before, we have a constant Kd that weights the importance of the diffuse comp
 
 To explain what the dot product does, let's imagine that the light rays hit a certain surface. If all rays hit the surface with a perpendicular angle (90º degrees) it receives more light than if the angle is glancing. This is called the Lambert cosine law.
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-25-phong-illumination/phong_diffuse_example.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-25-phong-illumination/phong_diffuse_example.png"> </p>
 
 
 ## Specular component
@@ -55,7 +55,7 @@ Finally, the specular component represents the light rays that arrive directly f
 
 As before, we have to calculate the specular component for each light and then add them. Now we have Ks that weights the importance of the specular component in the equation, V is the outgoing view direction, R is the reflected vector at point P and Cm,s is the specular light color. Here it appears a new parameter (from exponent, but commonly called shininess). This parameter is an exponent of the dot product. But what does the dot product do? In this case, the dot product calculates the angle between the view direction V and the reflected vector R. If the angle is close to 90º, the object is behaving like a mirror so most of the light should be reflected.
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-25-phong-illumination/phong_specular_example.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-25-phong-illumination/phong_specular_example.png"> </p>
 
 The exponent or shininess is useful to tweak how much we want the reflection to be focused in one single point or to be more spread along the surface instead. It is very easy to understand how it works looking at an image: Shininess from 1 to 200 (left to right)
 
@@ -81,13 +81,13 @@ If we add all the previous equation of the different components, we have the com
 And these are the results of my Ray tracer using the Phong lighting model
 
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-25-phong-illumination/phong_ambient_example.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-25-phong-illumination/phong_ambient_example.png"> </p>
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-25-phong-illumination/phong_diffuse_example.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-25-phong-illumination/phong_diffuse_example.png"> </p>
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-25-phong-illumination/phong_specular_example.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-25-phong-illumination/phong_specular_example.png"> </p>
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-25-phong-illumination/phong_complete_example.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-25-phong-illumination/phong_complete_example.png"> </p>
 
 ### Notes
 
