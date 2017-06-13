@@ -42,14 +42,17 @@ _CM3x3 · CV3x1= CV'3x1_
 
 The same holds in the case of a column vector and a column major matrix. Recalling the previous definitions:
 
-RV = CVT
-RM = CMT
+_RV = CVT_
+_RM = CMT_
 
 We can say that RV'1x3= CV'3x1T and it's very easy to demonstrate:
 
 _RV1x3 · RM3x3 = CV'3x1T_
+
 _(RV1x3 · RM3x3 )T= CV'3x1_
+
 _RM3x3T · RV1x3T = CV'3x1
+
 _CM3x3 · CV1x3 = CV'3x1_
 
 Notice here that when we multiply __row vectors and row major matrices__, the vector is always at the __left-most side__ because of the constraints of the matrix multiplication. On the other hand, when we multiply __column vectors and column major matrices__, the vector is always at the __right-most side__. 
