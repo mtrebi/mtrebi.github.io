@@ -59,7 +59,7 @@ As before, we have to calculate the specular component for each light and then a
 
 The exponent or shininess is useful to tweak how much we want the reflection to be focused in one single point or to be more spread along the surface instead. It is very easy to understand how it works looking at an image: Shininess from 1 to 200 (left to right)
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-25-phong-illumination/phong_specular_shininess.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-25-phong-illumination/phong_specular_shininess.png"> </p>
 
 When we use an exponent in a value that ranges from 0 to 1 (not -1 to 1, more on this later), we are making the small values even smaller (ie: 0.1 becomes 0.01) and the higher values don't get really affected (ie: 0.99 becomes 0.98). Thus, a high shininess means that light rays will be only reflected in that direction where the dot product is really high, or what is the same, that the angle between L and the R is close to 90º.
 
