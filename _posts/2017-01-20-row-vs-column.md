@@ -9,10 +9,10 @@ meta: "Girona"
 
 For coherence and to make things easier to understand there are two ways to write vectors. We can write them horizontally (row vector) or vertically (column vector). 
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-20-row-vs-column/row-vector.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-20-row-vs-column/row_vector.PNG"> </p>
 _Row vector RV_
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-20-row-vs-column/column-vector.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-20-row-vs-column/column_vector.PNG"> </p>
 _Column vector CV_
 
 When working with vectors, this is purely aesthetic. In fact we can say that RV = CVT and vice versa. Most math books use the column vector notation and then use its transpose CVT to include the vector in a paragraph or sentence.
@@ -22,10 +22,10 @@ When working with vectors, this is purely aesthetic. In fact we can say that RV 
 Another common convention is work with row major matrices or column major matrices. As you may guessed, a row major matrix is made up of row vectors and a column major matrix is made up column vectors. 
 
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-20-row-vs-column/row-major-matrix.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-20-row-vs-column/row_major_matrix.PNG"> </p>
 _Row major matrix RM_
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-20-row-vs-column/column-major-matrix.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-01-20-row-vs-column/column_major_matrix.PNG"> </p>
 _Column major matrix CM_
 
 As before, the expression RM = CMT holds. Note that the definition of row/column major matrix only has sense when the elements of the matrix are actually vectors. This means that the elements in the same row (in the case of row major) or same column (in the case of column major) have a relationship. They are tied together so it makes sense to display them together.
