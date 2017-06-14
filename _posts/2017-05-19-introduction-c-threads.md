@@ -61,6 +61,7 @@ for (int i = 0; i < THREADS_NUMBER; ++i) {
   // Wait until each thead has finished
   threads[i].join();
 }
+```
 
 The first thing that we do is we create an array of threads where we'll store our threads. Then, we initialize each thread giving it the function to execute multiply_threading that has the following signature:
 
