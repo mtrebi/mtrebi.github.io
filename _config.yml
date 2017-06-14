@@ -32,3 +32,6 @@ exclude:
 
 disqus:
   shortname: https-mtrebi-github-io
+
+google_analytics: UA-100953409-1
+
