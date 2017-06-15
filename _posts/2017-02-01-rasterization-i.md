@@ -5,18 +5,19 @@ author: "Mariano Trebino"
 meta: "Girona"
 ---
 
-# Introduction
+## Introduction
 
 As I mentioned in my first post when I introduced rendering, there are two ways to solve the visibility problem: Ray tracing or Rasterization. In this post we're going to focus on the latter one.
 
 This is the first post of a series about Rasterization:
-Rasterization (I): Overview (this post)
-Rasterization (II): Projection (TODO)
-Rasterization (III): Containment (TODO)
-Rasterization (IV): Depth buffering (TODO)
-Rasterization (V): Attributes interpolation (Bonus) (TODO)
-Rasterization (VI): Final result (TODO)
-Rasterization: Overview
+- Rasterization (I): Overview (this post)
+- Rasterization (II): Projection (TODO)
+- Rasterization (III): Containment (TODO)
+- Rasterization (IV): Depth buffering (TODO)
+- Rasterization (V): Attributes interpolation (Bonus) (TODO)
+- Rasterization (VI): Final result (TODO)
+
+## Rasterization: Overview
 
 Rasterization and Ray Tracing are processes that take a 3D world as an input and generate an 2D image as an output. These 2D images correspond to a specific view of the 3D world where the camera is placed. The difference between these algorithms is how they work to produce the result.
 
