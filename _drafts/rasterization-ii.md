@@ -43,10 +43,8 @@ In this post we are going to see, the first unknown function of the code snippet
 
 As you may guessed from the code, the project function takes a 3D triangle of a 3D world and projects it into the screen generating a new 2D triangle.
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/XXXX-XX-XX-rasterization-i/projection_3d_to_screen.png"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/XXXX-XX-XX-rasterization-ii/projection_3d_to_screen.png"> </p>
 
-
-Perspective projection of a 3D triangle into the screen creating a 2D triangle
 
 Now that we know what the project function does, let's see how it works. To to convert from the 3D world to the 2D screen there are multiple steps involved that I believe it is worth reviewing because most graphics API use them.
 
@@ -80,7 +78,7 @@ v_up.normalize();
 Then, the LookAt matrix in column-major format is:
                                
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/XXXX-XX-XX-rasterization-i/lookat_matrix.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/XXXX-XX-XX-rasterization-ii/lookat_matrix.PNG"> </p>
 
 _Note that the previous matrix is in column-major order. In row-major format is just transpose(M)_
 
@@ -89,7 +87,7 @@ _Note that the previous matrix is in column-major order. In row-major format is 
 [CLIP SPLACE]
 The next step would be to project the 3D points in Camera Space into Screen Space. However, before that, we're going to convert this coordinates to something called NDC (Normalized Device Coordinates) to simplify some transformations. NDC is just a simple convention to separate the projection to a generic viewport from a specific one (more on this later) creating a Normalized Coordinates of the screen.. NDC values go from -1 to 1 (OpenGL) or from 0 to 1 (DirectX). Take a look at the following picture to understand it:
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/XXXX-XX-XX-rasterization-i/normalized_device_coordinates.jpg"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/XXXX-XX-XX-rasterization-ii/normalized_device_coordinates.jpg"> </p>
 
 So what we want is to convert out 3D points viewed from the camera to 2D points that in the range [-1, 1]. As before, we're going to use a matrix multiplication:
 
@@ -104,7 +102,7 @@ This is probably the easiest projection type because it has no distortion so dis
 
 To create an orthographic projection we simply create a series of projectors from the 3D points to the 2D projection plane. All this projectors must  perpendicular to the projection plane and parallel between them. 
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/XXXX-XX-XX-rasterization-i/orthographic_projection.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/XXXX-XX-XX-rasterization-ii/orthographic_projection.PNG"> </p>
 
 ## Perspective camera
 
