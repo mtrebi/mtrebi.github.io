@@ -51,10 +51,9 @@ In the rasterizer that I am implementing right now (the previous image was gener
 
 Another frequent use is to use the barycentric coordinates to check if a point is inside, on the edge, or outside the triangle. As we saw:
 
-If all barycentric coordinates of a point are positive and sum one, they point lies inside the triangle.
-If one barycentric coordinate is zero and the other ones are positive and less than one, the point lies on an edge.
-If any barycentric coordinate is negative, the point is outside the triangle.
-In the next post we'll see how to calculate the barycentric coordinates.
+- If all barycentric coordinates of a point are positive and sum one, they point lies inside the triangle.
+- If one barycentric coordinate is zero and the other ones are positive and less than one, the point lies on an edge.
+- If any barycentric coordinate is negative, the point is outside the triangle.
 
 # References
 
