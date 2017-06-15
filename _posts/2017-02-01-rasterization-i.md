@@ -22,7 +22,7 @@ Rasterization and Ray Tracing are processes that take a 3D world as an input and
 
 In the case of Rasterization, we take the vertices of a 3D object (usually a triangle) and we project them into the screen creating a 2D object.
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-02-01-rasterization-i/projection_3d_to_screen.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-02-01-rasterization-i/projection_3d_to_screen.png"> </p>
 
 Then we iterate all the pixels in the screen and we check if the pixels are contained inside this 2D object. If they are, we color them.
 
@@ -94,7 +94,7 @@ A clever reader may be wondering what happens when two triangles overlap on the 
 
 In the example image we have a blue dark blue and cyan triangle. Because the dark blue triangle is farther from the camera: depth1 < depth2 the cyan triangle should be displayed in the screen.
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-02-01-rasterization-i/depth_problem.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-02-01-rasterization-i/depth_problem.png"> </p>
 
 <p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-02-01-rasterization-i/depth_solution.PNG"> </p>
 
