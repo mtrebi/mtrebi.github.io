@@ -2,8 +2,14 @@
 layout: home
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac mauris quis ligula blandit vulputate in sed nulla. Cras at pulvinar tellus. Quisque malesuada velit sapien, quis consequat elit venenatis lobortis. Nulla in lorem nec erat vestibulum pretium at vel quam. Suspendisse quis turpis et lorem placerat rutrum. Aenean placerat dignissim rhoncus. Phasellus posuere tellus arcu, nec mollis quam maximus nec. Nulla gravida neque sed ex semper egestas. Nam tristique eleifend urna ut elementum.
+Hey! My name is Mariano Trebino and this is my website to post things related to technology, projects and blogging.
 
-Aliquam sit amet tellus nulla. Donec tincidunt vel sem nec malesuada. Nam et pellentesque lectus, vitae faucibus dui. Donec odio nunc, dapibus pretium diam quis, facilisis egestas dolor. Fusce mollis orci eu nisl molestie, vel interdum neque semper. Fusce ullamcorper arcu mauris, sed maximus nulla efficitur eu. Nam mauris tortor, convallis eu leo luctus, ultricies imperdiet libero. Curabitur eget dolor felis.
+Since I was a child I have been playing games on the PC (yes, I am one of those). I started playing Galaxian, Arkanoid, Doom and many others...When cybercafés got popular in early 2000 I started playing some LAN games like Wacraft III, Tactical Ops, Counter Strike, FarCry, Battlefield 1942...And that is how it all began. Now I keep playing and playing games. I am most into FPS games but I also like RTS and RPGs.
 
-In nec purus ut nibh interdum dapibus consequat a sem. Donec erat libero, imperdiet sit amet est vitae, rhoncus mollis elit. Nam eu porta tellus. Nulla eu venenatis dolor, in cursus est. Quisque nec nulla et est euismod congue. Phasellus eu elit nec purus rutrum semper. Curabitur congue consectetur sapien non facilisis. Sed placerat, justo non egestas ornare, sem enim porta ipsum, vitae ornare odio orci a nisi. Suspendisse eu volutpat mi, in ornare justo.
+Regarding my professional aptitudes, in 2010 I started a B.S. in Computer Science at the University of Girona. By 2014 I finished it and I started a MSc. in CS at the UdG as well. By the summer of 2016 I finished my MSc with first class honours with an average mark of 9.54.
+
+Since 2012 I have been studying and part-time working as a software enginneer in several companies and roles, but mostly as a backend developer. However, this has never been my goal although it was cool to do during my studies. Now that I have finished them, I want to focus on game development.
+
+In order to get some experience in games, I developed an AI system for a FPS using Unreal Engine 4 for my MSc thesis. This project was really cool and it allowed me to understand how games work from a low level perspective. Nevertheless, other areas like rendering, networking, physics were still totally unknown for me. For this reason, I decided to join [The Recurse Center](https://www.recurse.com/), a programming retreat based in New York. During the three months that I spent there I improved my C++ skills and my knowledge about games by implementing totally from scratch a software Ray Tracer, several memory allocators, a small application in OpenGL and I started a  software Rasterizer.
+
+Nowadays I am looking for a job in the games industry. In the mean time I spend my free time developing on my own projects, playing games and going to the gym as much as I can. I really enjoy working out and practicing sports. My favourite ones are surfing, snowboarding and skating (in that order) but I also like running and MTB.
