@@ -17,7 +17,7 @@ If you think about it, Cartesian coordinates can also be expressed as a linear c
 
 This constraint removes one degree of freedom and is the reason why, even that we have three cordinates, the result is in a 2D space. This may seem a little bit difficult to understand, so let's do it more visual and we'll come back with that later.
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-02-15-barycentric-space-i/barycentric_coords_example.PNG"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/mtrebi.github.io/master/assets/2017-02-15-barycentric-space-i/barycentric_coords_example.png"> </p>
 
 First of all, we can see that at the vertices of the triangles, one barycentric coordinate is exactly one while the others are zero:
 
