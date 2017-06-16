@@ -5,10 +5,11 @@ permalink: /resume/
 ---
 
 ## Table of contents
-
-
-
-
+&nbsp;[Education](https://mtrebi.github.io/resume/#education)  <br/> 
+&nbsp;[Work Experience](https://mtrebi.github.io/resume/#work-experience)  <br/> 
+&nbsp;[Projects](https://mtrebi.github.io/resume/#projects)  <br/> 
+&nbsp;[Skills](https://mtrebi.github.io/resume/#skills)  <br/> 
+&nbsp;[Awards](https://mtrebi.github.io/resume/#awards)  <br/> 
 
 
 ## Education
