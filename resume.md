@@ -13,16 +13,32 @@ permalink: /resume/
 
 ## Education
 
-- Graduated with __First Class honours__ in the __MSc in Computer Science__ at the University of Girona, 2014-2016
-- Graduated in the __B.S. in Computer Science__ at the University of Girona, 2010-2014
+- __First Class honours__ in the __MSc in Computer Science__ at the University of Girona, 2014-2016
+- __B.S. in Computer Science__ at the University of Girona, 2010-2014
 - __Technological High School__ at IES Santiago Sobrequés, 2008-2010
 
 ## Work Experience
 
+#### Participant, Recurse Center
+
+#### Back-end developer, Wikiloc Outdoor, S.L.
+
+#### Back-end developer (intern), University of Girona
+
+#### Full-stack developer (intern), Infogestió Girona S.L.
+
+#### Back-end developer (intern), ANPRO 21
+
+#### NXT developer (intern), University of Girona
+
+
 ## Projects
+
+[Lista de proyectos --> proyectos tab]
 
 ## Skills
 
+[Columna con asteriscos o estrellas]
 
 ## Awards
 
