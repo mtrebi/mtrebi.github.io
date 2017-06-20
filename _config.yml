@@ -21,7 +21,7 @@ minima:
 
 gems: [jekyll-paginate]
 paginate: 5
-paginate_path: "/index/page:num/"
+paginate_path: "/blog/page:num/"
 
 # Build settings
 markdown: kramdown
