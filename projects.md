@@ -101,7 +101,7 @@ _C++, OpenGL_
 
 Very basic project based on a series of [tutorials](https://learnopengl.com/). It was useful for me as an introduction to OpenGL. I implemented some simple features like Gouraud, Phong and Blinn-Phong Shading, normal mapping and shadow mapping.
 
-<p align="center">  <img src="https://github.com/mtrebi/rendering-engine/blob/master/docs/images/rim_lighting.PNG?raw=true" width=400> </p>
+<p align="center">  <img src="https://github.com/mtrebi/rendering-engine/blob/master/docs/images/rim_lighting.PNG?raw=true" width="400"> </p>
 
 ### Software raytracer
 
@@ -118,7 +118,7 @@ The goal of this project was to become familiar with C++ and graphics stuff whil
 - Multiple cameras: perspective and orthogonal.
 - Easy to extend. I took care to design the raytracer folowing the software principles. It is very to modify or extend any of the previous features, for example, to add another material, camera or sampling method.
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/Raytracer/master/docs/images/final-256-sampling.bmp" width=400> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/Raytracer/master/docs/images/final-256-sampling.bmp" width="400"> </p>
 
 [Read more](https://github.com/mtrebi/Raytracer)
 
@@ -135,7 +135,7 @@ This system was based on UE4 Behavior Trees with many custom nodes created in C+
 - Group behavior. I shared some information between the different bots to attack from different sides or spreading out on the map when searching.
 - Positioning. I created custom EQS queries to test whether a position was good cover or a good attack position, or if it was close to an obstacle...
 
-<p align="center"> <a href="https://www.youtube.com/watch?v=fTocYPT-k6o&list=PLeGS7otZ9mSexXzFVHJJb5Oaj1MCPA3rA&index=1"><img src="http://img.youtube.com/vi/wSTioum0eas/0.jpg" title="Youtube playlist with demo videos" width=400 /></a> </p>
+<p align="center"> <a href="https://www.youtube.com/watch?v=fTocYPT-k6o&list=PLeGS7otZ9mSexXzFVHJJb5Oaj1MCPA3rA&index=1"><img src="http://img.youtube.com/vi/wSTioum0eas/0.jpg" title="Youtube playlist with demo videos" width="400" /></a> </p>
 
 [Read more](https://github.com/mtrebi/AI_FPS)
 
@@ -151,7 +151,7 @@ We developed a Bug0 navigation algorithm for a Turtlebot 2 in Python that was ab
 
 We used the odometry sensors of the Turtlebot to update and correct the current position. We also took advantage of the depth sensor of the XBOX Kinect to detect obstacles. Once an obstacle was detected, the robot tried to surround it. After that, the robot re-calculated the trajectory to the goal and repetead the process.
 
-<p align="center"> <a href="https://www.youtube.com/watch?v=7wiXgdLNfO0&list=PLeGS7otZ9mSc-kfSqJHZLcTUpjxLSWuh7&index=1"><img src="http://img.youtube.com/vi/7wiXgdLNfO0/0.jpg" title="Turtlebot avoiding bostacles" width=400 /></a> </p>
+<p align="center"> <a href="https://www.youtube.com/watch?v=7wiXgdLNfO0&list=PLeGS7otZ9mSc-kfSqJHZLcTUpjxLSWuh7&index=1"><img src="http://img.youtube.com/vi/7wiXgdLNfO0/0.jpg" title="Turtlebot avoiding bostacles" width="400" /></a> </p>
 
 [Read more](https://github.com/mtrebi/catkin_ws)
 
