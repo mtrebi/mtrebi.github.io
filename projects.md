@@ -4,6 +4,12 @@ title: Projects
 permalink: /projects/
 ---
 
+### Thread Pool
+
+Thread pool implemented in C++11 using Threads, Futures, Packaged Tasks and type deductions
+
+[Read more](https://github.com/mtrebi/thread-pool)
+
 ### Software rasterizer
 
 After a small OpenGL project I decided to implement my own OpenGL rendering pipeline in the CPU in order to understand how it works. The goal of this project was not to create a next generation renderer but to understand how the rendering algorithms transforms a set of vertices that make up a 3D World into a 2D image of that World.
@@ -22,23 +28,23 @@ For this project I started by implementing a very basic rasterizer to render a s
 * Two rendering paths: Forward and deferred
 * Shadow mapping for directional lights with PCF 
 
-These images were both generated using the rasterizer:
-
-<p align="center">  <img src="https://github.com/mtrebi/Rasterizer/blob/master/docs/images/readme/shadows_textured_scene_PCF.bmp"> </p>
-
-<p align="center">  <img src="https://github.com/mtrebi/Rasterizer/blob/master/docs/images/readme/shadows_flat_scene_PCF_behind.bmp"> </p>
+<p align="center">  <img src="https://github.com/mtrebi/Rasterizer/blob/master/docs/images/gallery/textured_vs_flat_scene.png?raw=true"> </p>
 
 [Read more](https://github.com/mtrebi/Rasterizer)
 
 
+
+
+### Memory allocators
+
+### OpenGL app
+
+### Software raytracer
+
 ### MSc. thesis: AI system to simulate combat behaviors in FPS
 MSc. thesis: AI system for simulating combat behaviors in FPS games using Behavior Trees, visibility algorithms, and influence maps in Unreal Engine 4
 
-### Thread Pool
 
-Thread pool implemented in C++11 using Threads, Futures, Packaged Tasks and type deductions
-
-[Read more](https://github.com/mtrebi/thread-pool)
 
 
 ### Bug0 navigation algorithm for Turtlebot 2.0
