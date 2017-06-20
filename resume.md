@@ -69,31 +69,22 @@ After that I developed (on my own) __a cooperative navigation algorithm based on
 
 ## My Projects
 
-### Software rasterizer
-C++ forward and deferred rasterizer with depth buffering, textures, normal maps, shadow mapping and phong shading in the CPU
+- [Procedural Generation Tool](https://mtrebi.github.io/projects/#procedural-generation-using-wcf-in-progress) _(C#, Unity, Wave Collapse Function)_
+- [Thread Pool](https://mtrebi.github.io/projects/#thread-pool) _(C++)_
+- [Software Rasterizer](https://mtrebi.github.io/projects/#software-rasterizer) _(C++)_
+- [Memory allocators](https://mtrebi.github.io/projects/#memory-allocators) _(C++)_
+- [Basic OpenGL project](https://mtrebi.github.io/projects/#basic-opengl-project)
+- [Software Raytracer](https://mtrebi.github.io/projects/#software-raytracer) _(C++)_
+- [MSc. thesis: AI system to simulate combat behaviors in FPS](https://mtrebi.github.io/projects/#msc.-thesis-ai-system-to-simulate-combat-behaviors-in-fps) _(C++, Unreal Engine 4, Behavior Trees)_
+- [Bug0 navigation algorithm for Turtlebot 2.0](https://mtrebi.github.io/projects/#bug0-navigation-algorithm-for-turtlebot-20) _(Python)_
+- [Android app](https://mtrebi.github.io/projects/#android-app-to-vote-for-the-9n-catalonian-referendum)
 
-### MSc. thesis: AI system to simulate combat behaviors in FPS
-MSc. thesis: AI system for simulating combat behaviors in FPS games using Behavior Trees, visibility algorithms, and influence maps in Unreal Engine 4
 
-### Thread Pool
-
-Thread pool implemented in C++11 using Threads, Futures, Packaged Tasks and type deductions
-
-### Degree final project: +CooVol
-
-Degree final project: +CooVol, a scalable and high available web application using pioneer technologies.
-
-### Bug0 navigation algorithm for Turtlebot 2.0
-
-Bug0 navigation algorithm in Python to move a Turtlebot 2 from one point to another avoiding obstacles using the depth sensor of XBOX Kinect
-
-### Android app
-
-Unofficial android app to vote for the 9N Referendum in Catalonia and generate demographics statistics
+Checkout all my projects with a brief description in the [projects tab](https://mtrebi.github.io/projects/).
 
 ## Skills
 
-C++, 3D Maths, Graphics, Dynamic memory, Threading, Unreal Engine 4, Behavior Trees, Git, OpenGL, OOP, Software patterns, Python, Java, Databases
+C++, 3D Maths, Graphics, Rendering, Dynamic memory, Multi-threading, Unreal Engine 4, Behavior Trees, Git, OpenGL, OOP, Software patterns, Python, Java, Databases
 
 ## Awards
 
