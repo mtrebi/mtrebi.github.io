@@ -13,7 +13,7 @@ permalink: /projects/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Memory allocators](https://mtrebi.github.io/projects/#memory-allocators)  <br/> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Basic OpenGL project](https://mtrebi.github.io/projects/#basic-opengl-project)  <br/> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Software Raytracer](https://mtrebi.github.io/projects/#software-raytracer)  <br/> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[MSc. thesis: AI system to simulate combat behaviors in FPS](https://mtrebi.github.io/projects/#msc.-thesis-ai-system-to-simulate-combat-behaviors-in-fps)  <br/> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[MSc. thesis: AI system to simulate combat behaviors in FPS](https://mtrebi.github.io/projects/#msc-thesis-ai-system-to-simulate-combat-behaviors-in-fps)  <br/> 
 &nbsp;[2015](https://mtrebi.github.io/projects/#2015)  <br/> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bug0 navigation algorithm for Turtlebot 2.0](https://mtrebi.github.io/projects/#bug0-navigation-algorithm-for-turtlebot-20)  <br/> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Android app to vote for the 9N Catalonian referendum](https://mtrebi.github.io/projects/#android-app-to-vote-for-the-9n-catalonian-referendum)  <br/> 
@@ -25,7 +25,7 @@ _C#, Unity, WCF, Voxel Art_
 
 This is my last project and it's currently under development. I wanted to do something with Unity and Procedural Generation so I am implementing a Wave Collapse Function to procedurally generate things. My final goal is to procedurally generate buildings and cities but for now I just managed to generate 2D terrain.
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/WaveCollapseFunction/master/Docs/Videos/wang_tiles_generation.gif" width=400> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/WaveCollapseFunction/master/Docs/Videos/wang_tiles_generation.gif?raw=true" width=400> </p>
 
 [Read more](https://github.com/mtrebi/WaveCollapseFunction)
 

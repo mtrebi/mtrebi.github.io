@@ -75,7 +75,7 @@ After that I developed (on my own) __a cooperative navigation algorithm based on
 - [Memory allocators](https://mtrebi.github.io/projects/#memory-allocators) _(C++)_
 - [Basic OpenGL project](https://mtrebi.github.io/projects/#basic-opengl-project)
 - [Software Raytracer](https://mtrebi.github.io/projects/#software-raytracer) _(C++)_
-- [MSc. thesis: AI system to simulate combat behaviors in FPS](https://mtrebi.github.io/projects/#msc.-thesis-ai-system-to-simulate-combat-behaviors-in-fps) _(C++, Unreal Engine 4, Behavior Trees)_
+- [MSc. thesis: AI system to simulate combat behaviors in FPS](https://mtrebi.github.io/projects/#msc-thesis-ai-system-to-simulate-combat-behaviors-in-fps) _(C++, Unreal Engine 4, Behavior Trees)_
 - [Bug0 navigation algorithm for Turtlebot 2.0](https://mtrebi.github.io/projects/#bug0-navigation-algorithm-for-turtlebot-20) _(Python)_
 - [Android app](https://mtrebi.github.io/projects/#android-app-to-vote-for-the-9n-catalonian-referendum)
 
