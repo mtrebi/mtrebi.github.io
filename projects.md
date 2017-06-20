@@ -3,6 +3,14 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
+## 2017
+### Procedural Generation using WCF (in progress)
+
+This is my last project and it's currently under development. I wanted to do something with Unity and Procedural Generation so I am implementing a Wave Collapse Function to procedurally generate things. My final goal is to procedurally generate buildings and cities but for now I just managed to generate 2D terrain.
+
+<p align="center">  <img src=https://raw.githubusercontent.com/mtrebi/WaveCollapseFunction/master/Docs/Videos/wang_tiles_generation.gif width=400> </p>
+
+[Read more](https://github.com/mtrebi/WaveCollapseFunction)
 
 ### Thread Pool
 
@@ -50,8 +58,19 @@ For this project I started by implementing a very basic rasterizer to render a s
 
 
 
-
+## 2016
 ### Memory allocators
+
+After talking about memory management in games with a fellow RC during my time in New York I decided to research about it and I ended up implementing serveral memory allocators (linear, stack, pool and free list).
+
+Developing a custom allocator was quite tricky because I had to implement by myself how memory was stored and managed with the allocate and free operations. Meta data must be kept to a minimum and data must be always aligned.
+
+After implementing all of this, I compared the performance of my allocators against malloc using custom benchmarks. It turned out that all my allocators were way better than malloc.
+
+
+Checkout also the [slides](https://github.com/mtrebi/memory-allocators/blob/master/docs/Dynamic%20memory(I).pdf) I used for a 5-min presentation I gave at the RC
+
+[Read more](https://github.com/mtrebi/memory-allocators)
 
 ### OpenGL app
 
@@ -74,17 +93,22 @@ The goal of this project was to become familiar with C++ and graphics stuff whil
 [Read more](https://github.com/mtrebi/Raytracer)
 
 ### MSc. thesis: AI system to simulate combat behaviors in FPS
+
 MSc. thesis: AI system for simulating combat behaviors in FPS games using Behavior Trees, visibility algorithms, and influence maps in Unreal Engine 4
 
 
 
-
+## 2015
 ### Bug0 navigation algorithm for Turtlebot 2.0
+
 
 Bug0 navigation algorithm in Python to move a Turtlebot 2 from one point to another avoiding obstacles using the depth sensor of XBOX Kinect
 
-### Android app
+### Android app to vote for the 9N Catalonian referendum
 
-Unofficial android app to vote for the 9N Referendum in Catalonia and generate demographics statistics
+Two weeks before the referendum for the independence of Catalonia I met with five friends and we developed an Android application to let people vote through their smartphone and forecast the results of the referendum. We also generated basic demographics statistics to see how votes were distributed across Catalonia, age and genres.  
 
-<p align="center">  <img src="https://lh6.ggpht.com/MP30trtzQ9sUT1c0qo5lSoX1vHTT65oGHSMHF3dQtGhKGLGg3-y5kPbcs-JlJskt75Fb=h900-rw"> </p>
+The app is on the [Playstore](https://play.google.com/store/apps/details?id=com.tendevelopers.Consulta9N). However, we no longer offer support for it.
+
+
+
