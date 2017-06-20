@@ -99,7 +99,7 @@ Checkout also the [slides](https://github.com/mtrebi/memory-allocators/blob/mast
 
 _C++, OpenGL_
 
-Very basic project based on a series of [tutorials](https://learnopengl.com/). It was useful for me as an introduction to OpenGL. I implemented some simple features like Gouraud, Phong and Blinn-Phong Shading, normal mapping and shadow mapping.
+Very basic project based on a series of [tutorials](https://learnopengl.com/). It was useful for me as an introduction to OpenGL. I implemented some simple features like Gouraud, Phong and Blinn-Phong Shading, Rim lighting, normal mapping and shadow mapping.
 
 <p align="center">  <img src="https://github.com/mtrebi/rendering-engine/blob/master/docs/images/rim_lighting.PNG?raw=true" width="400"> </p>
 
