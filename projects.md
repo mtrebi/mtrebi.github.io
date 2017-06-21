@@ -97,7 +97,7 @@ Checkout also the [slides](https://github.com/mtrebi/memory-allocators/blob/mast
 
 ### Basic OpenGl project
 
-_C++, OpenGL_
+_C++, OpenGL, 3D Graphics, Rendering_
 
 Very basic project based on a series of [tutorials](https://learnopengl.com/). It was useful for me as an introduction to OpenGL. I implemented some simple features like Gouraud, Phong and Blinn-Phong Shading, Rim lighting, normal mapping and shadow mapping.
 
