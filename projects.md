@@ -25,7 +25,8 @@ _C#, Unity, WCF, Voxel Art_
 
 This is my last project and it's currently under development. I wanted to do something with Unity and Procedural Generation so I am implementing a Wave Collapse Function to procedurally generate things. My final goal is to procedurally generate buildings and cities but for now I just managed to generate 2D terrain.
 
-<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/WaveCollapseFunction/master/Docs/Videos/wang_tiles_generation.gif?raw=true" width="400"> </p>
+<p align="center">  <img src="https://github.com/mtrebi/WaveCollapseFunction/blob/master/Docs/Videos/3Dblock_tiles_generation_first.gif?raw=true" width="400"> </p>
+
 
 [Read more](https://github.com/mtrebi/WaveCollapseFunction)
 
