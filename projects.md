@@ -23,9 +23,19 @@ permalink: /projects/
 
 _C#, Unity, WCF, Voxel Art_
 
-This is my last project and it's currently under development. I wanted to do something with Unity and Procedural Generation so I am implementing a Wave Collapse Function to procedurally generate things. My final goal is to procedurally generate buildings and cities but for now I just managed to generate 2D terrain.
+This is my last project and it's currently under development. I wanted to do something with Unity and Procedural Generation so I am implementing a [Wave Collapse Function](https://github.com/mxgmn/WaveFunctionCollapse) to procedurally generate things. My final goal is to procedurally generate buildings and cities. 
 
-<p align="center">  <img src="https://github.com/mtrebi/WaveCollapseFunction/blob/master/Docs/Videos/3Dblock_tiles_generation_first.gif?raw=true" width="400"> </p>
+By now I've managed to implement an algorithm that can take any square voxel model and generates buildings from combining these models. In order to combine these models, it automatically detect the constraints between them to make sure they match. I've also implemented a symmetry system to reduce the number of required models.
+
+<p align="center">  <img src="https://github.com/mtrebi/WaveCollapseFunction/blob/master/Docs/Videos/3Dblock_tiles_generation_5x5.gif?raw=true" width="400"> </p>
+
+Next steps:
+
+* Add more tile models to improve building shapes
+* Add heuristics to create more realistic buildings
+* Add UI to improve interaction with the algorithm and the building generation
+* Improve models appearance (art)
+* Improve performance (space and memory)
 
 
 [Read more](https://github.com/mtrebi/WaveCollapseFunction)
