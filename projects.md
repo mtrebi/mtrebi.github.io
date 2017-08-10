@@ -23,19 +23,14 @@ permalink: /projects/
 
 _C#, Unity, WCF, Voxel Art_
 
-This is my last project and it's currently under development. I wanted to do something with Unity and Procedural Generation so I am implementing a [Wave Collapse Function](https://github.com/mxgmn/WaveFunctionCollapse) to procedurally generate things. My final goal is to procedurally generate buildings and cities. 
+This is my last project and it's currently under development. I wanted to do something with Unity and Procedural Generation so I am implementing a [Wave Collapse Function](https://github.com/mxgmn/WaveFunctionCollapse) to procedurally generate buildings. 
 
-By now I've managed to implement an algorithm that can take any square voxel model and generates buildings from combining these models. In order to combine these models, it automatically detect the constraints between them to make sure they match. I've also implemented a symmetry system to reduce the number of required models.
+By now, I've managed to implement an algorithm that takes a set of arbitrary models and combines them to generate buildings. It automatically, scans the meshes of these models to generate symmetric models and detect constraints on which models can be combined together.
 
-<p align="center">  <img src="https://github.com/mtrebi/WaveCollapseFunction/blob/master/Docs/Videos/3Dblock_tiles_generation_5x5.gif?raw=true" width="400"> </p>
+This gif is just an example of how the algorithm combines one single model and its symmetric models to generate different shapes that make sense. THis 
+<p align="center">  <img src="https://github.com/mtrebi/WaveCollapseFunction/blob/master/Docs/Videos/mesh_generation_first.gif?raw=true" width="400"> </p>
 
-Next steps:
-
-* Add more tile models to improve building shapes
-* Add heuristics to create more realistic buildings
-* Add UI to improve interaction with the algorithm and the building generation
-* Improve models appearance (art)
-* Improve performance (space and memory)
+This algorithm can be used to construct bigger things by simple adding more models to combine. I am currently learking Maya in order to create more and prettier models to generate buildings.
 
 
 [Read more](https://github.com/mtrebi/WaveCollapseFunction)
