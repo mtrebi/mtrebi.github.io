@@ -28,7 +28,7 @@ This is my last project and it's currently under development. I wanted to do som
 By now, I've managed to implement an algorithm that takes a set of arbitrary models and combines them to generate buildings. It automatically, scans the meshes of these models to generate symmetric models and detect constraints on which models can be combined together.
 
 This gif is just an example of how the algorithm combines one single model and its symmetric models to generate different shapes that make sense. This 
-<p align="center">  <img src="https://github.com/mtrebi/WaveCollapseFunction/blob/master/Docs/Videos/mesh_generation1.gif?raw=true" width="400"> </p>
+<p align="center">  <img src="https://github.com/mtrebi/WaveCollapseFunction/blob/master/Docs/Videos/mesh_generation3.gif?raw=true" width="400"> </p>
 
 This algorithm can be used to construct bigger things by simple adding more models to combine. I am currently learking Maya in order to create more and prettier models to generate buildings.
 
