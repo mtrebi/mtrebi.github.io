@@ -25,15 +25,17 @@ _C#, Unity, WCF, Voxel Art_
 
 This is my last project and it's currently under development. I wanted to do something with Unity and Procedural Generation so I am implementing a [Wave Collapse Function](https://github.com/mxgmn/WaveFunctionCollapse) to procedurally generate buildings. 
 
-By now, I've managed to implement an algorithm that takes a set of arbitrary models and combines them to generate buildings. It automatically, scans the meshes of these models to generate symmetric models and detect constraints on which models can be combined together.
+By now, I've managed to implement an algorithm that takes a set of arbitrary models and combines them to generate buildings. It automatically, scans the meshes of these models to generate symmetric models and detect constraints on which models can be combined together. I am currently learning Maya in order to create more and prettier models to generate bigger buildings and cities.
 
-This gif is just an example of how the algorithm combines one single model and its symmetric models to generate different shapes that make sense. This 
-<p align="center">  <img src="https://github.com/mtrebi/WaveCollapseFunction/blob/master/Docs/Videos/mesh_generation3.gif?raw=true" width="400"> </p>
+The following gif is just an example of how the algorithm combines simple models to create a simple building:
 
-This algorithm can be used to construct bigger things by simple adding more models to combine. I am currently learking Maya in order to create more and prettier models to generate buildings.
+<p align="center">  <img src="https://www.dropbox.com/s/fzjvic9hd2ms7oe/building_parts.gif?raw=1" width="400"> </p>
 
+The algorithm, however, can be used to create bigger and more complex things:
 
-[Read more](https://github.com/mtrebi/WaveCollapseFunction)
+<p align="center">  <img src="https://www.dropbox.com/s/jkk9t64qoe5wpe4/proc_generating_buildings.gif?raw=1" width="400"> </p>
+
+**Download [demo](https://www.dropbox.com/sh/3zq1e3wt22elxkr/AABTO0DC8SF7NMlczejsR2Jza?dl=0)** *(Make sure to download the executable as well as the Data folder)*
 
 ### Thread Pool
 
