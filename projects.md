@@ -33,7 +33,7 @@ The following gif is just an example of how the algorithm combines simple models
 
 The algorithm, however, can be used to create bigger and more complex things. Checkout this youtube video (click on the image):
 
-<p align="center"> <a href="https://youtu.be/OQLh7t7De3I"><img src="http://img.youtube.com/vi/OQLh7t7De3I/0.jpg" title="Procedurally generating buildings using WCF" width="400" /></a> </p>
+<p align="center"> <a href="https://youtu.be/OQLh7t7De3I" target="_blank"><img src="http://img.youtube.com/vi/OQLh7t7De3I/0.jpg" title="Procedurally generating buildings using WCF" width="400" /></a> </p>
 
 #### **Download [demo](https://www.dropbox.com/sh/3zq1e3wt22elxkr/AABTO0DC8SF7NMlczejsR2Jza?dl=0)** *(Make sure to download the executable as well as the Data folder)*
 
@@ -159,7 +159,7 @@ We developed a Bug0 navigation algorithm for a Turtlebot 2 in Python that was ab
 
 We used the odometry sensors of the Turtlebot to update and correct the current position. We also took advantage of the depth sensor of the XBOX Kinect to detect obstacles. Once an obstacle was detected, the robot tried to surround it. After that, the robot re-calculated the trajectory to the goal and repetead the process.
 
-<p align="center"> <a href="https://www.youtube.com/watch?v=7wiXgdLNfO0&list=PLeGS7otZ9mSc-kfSqJHZLcTUpjxLSWuh7&index=1"><img src="http://img.youtube.com/vi/7wiXgdLNfO0/0.jpg" title="Turtlebot avoiding bostacles" width="400" /></a> </p>
+<p align="center"> <a href="https://www.youtube.com/watch?v=7wiXgdLNfO0&list=PLeGS7otZ9mSc-kfSqJHZLcTUpjxLSWuh7&index=1" target="_blank"><img src="http://img.youtube.com/vi/7wiXgdLNfO0/0.jpg" title="Turtlebot avoiding bostacles" width="400" /></a> </p>
 
 [Read more](https://github.com/mtrebi/catkin_ws)
 
