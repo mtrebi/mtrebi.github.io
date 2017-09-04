@@ -31,11 +31,11 @@ The following gif is just an example of how the algorithm combines simple models
 
 <p align="center">  <img src="https://www.dropbox.com/s/fzjvic9hd2ms7oe/building_parts.gif?raw=1" width="400"> </p>
 
-The algorithm, however, can be used to create bigger and more complex things:
+The algorithm, however, can be used to create bigger and more complex things. Checkout this youtube video (click on the image):
 
-<p align="center">  <img src="https://www.dropbox.com/s/jkk9t64qoe5wpe4/proc_generating_buildings.gif?raw=1" width="400"> </p>
+<p align="center"> <a href="https://youtu.be/OQLh7t7De3I"><img src="http://img.youtube.com/vi/OQLh7t7De3I/0.jpg" title="Procedurally generating buildings using WCF" width="400" /></a> </p>
 
-**Download [demo](https://www.dropbox.com/sh/3zq1e3wt22elxkr/AABTO0DC8SF7NMlczejsR2Jza?dl=0)** *(Make sure to download the executable as well as the Data folder)*
+#### **Download [demo](https://www.dropbox.com/sh/3zq1e3wt22elxkr/AABTO0DC8SF7NMlczejsR2Jza?dl=0)** *(Make sure to download the executable as well as the Data folder)*
 
 ### Thread Pool
 
