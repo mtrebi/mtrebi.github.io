@@ -1,21 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+---
+layout: default
+---
 
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-
-    <main class="page-content" aria-label="Content">
-      <div class="webgl-content">
-        <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      </div>
-    </main>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
-
+<div class="webgl-content">
+  <div id="gameContainer" style="width: 960px; height: 600px"></div>
+</div>
