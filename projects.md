@@ -35,7 +35,7 @@ The algorithm, however, can be used to create bigger and more complex things. Ch
 
 <p align="center"> <a href="https://youtu.be/OQLh7t7De3I" target="_blank"><img src="http://img.youtube.com/vi/OQLh7t7De3I/0.jpg" title="Procedurally generating buildings using WCF" width="400" /></a> </p>
 
-#### **Download [demo](https://www.dropbox.com/sh/3zq1e3wt22elxkr/AABTO0DC8SF7NMlczejsR2Jza?dl=0)** *(Make sure to download the executable as well as the Data folder)*
+### Try the [demo](https://mtrebi.github.io/WCF/)
 
 ### Thread Pool
 
@@ -80,7 +80,8 @@ For this project I started by implementing a very basic rasterizer to render a s
 * Simple optimizations
 * A depth-buffer to solve the visibility surface problem
 * Two rendering paths: Forward and deferred
-* Shadow mapping for directional lights with PCF 
+* Sha
+* dow mapping for directional lights with PCF 
 
 <p align="center">  <img src="https://github.com/mtrebi/Rasterizer/blob/master/docs/images/gallery/textured_vs_flat_scene.png?raw=true"> </p>
 
