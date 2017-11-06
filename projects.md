@@ -6,6 +6,7 @@ permalink: /projects/
 ## Table of contents
 &nbsp;[2017](https://mtrebi.github.io/projects/#2017)  <br/> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Procedural Generation using WCF](https://mtrebi.github.io/projects/#procedural-generation-using-wcf-in-progress)  <br/> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Image Primitives](https://mtrebi.github.io/projects/#image-primitives)  <br/> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Thread Pool](https://mtrebi.github.io/projects/#thread-pool)  <br/> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Multi-threading matrix multiplication](https://mtrebi.github.io/projects/#multi-threading-matrix-multiplication)  <br/> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Software Rasterizer](https://mtrebi.github.io/projects/#software-rasterizer)  <br/> 
@@ -36,6 +37,24 @@ The algorithm, however, can be used to create bigger and more complex things. Ch
 <p align="center"> <a href="https://youtu.be/OQLh7t7De3I" target="_blank"><img src="http://img.youtube.com/vi/OQLh7t7De3I/0.jpg" title="Procedurally generating buildings using WCF" width="400" /></a> </p>
 
 ### Try the [demo](https://mtrebi.github.io/WCF/)
+
+[Read more](https://github.com/mtrebi/thread-pool)
+
+### Image Primitives
+
+_C++, Multi-threading, Geometry, Hill Climb_
+
+This project aims to reproduce an image using geometric primitives (triangles or ellipses). The algorithm takes an input image and tries to minimize the difference between the input image (or *target*) and the generated image (or *current*) by adding geometric shapes.
+
+In order to find a good primitive that minimizes the difference, I generate several random shapes and I pick the best of them. Then, I mutate the primitive using a Hill Climb approach to improve even more the difference. 
+
+The algorithm can run using a Thread-pool to improve the results and the speed.
+
+This cute dog was generated using around 1000 triangles.
+
+<p align="center">  <img src="https://raw.githubusercontent.com/mtrebi/ImagesPrimitives/master/docs/images/sona_500t.gif?raw=1"> </p>
+
+[Read more](https://github.com/mtrebi/ImagesPrimitives)
 
 ### Thread Pool
 
