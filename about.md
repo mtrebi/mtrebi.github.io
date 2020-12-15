@@ -12,4 +12,4 @@ Since 2012 I have been studying and part-time working as a software enginneer in
 
 During my free time I've focused my efforts to improve my knowledge in games. I developed an AI system for a FPS using Unreal Engine 4 for my MSc thesis. I joined [The Recurse Center](https://www.recurse.com/), a programming retreat based in New York to deepen my C++ skills and my knowledge about games by implementing totally from scratch a software Ray Tracer, several memory allocators, a small application in OpenGL and I started a  software Rasterizer.
 
-Nowadays I am working at Crytek (Frankfurt am Main, Germany) as a Junior AI programmer. When I have some free time I like to workout, play some games or develop my own projects.
+After working on the AI team at Crytek for two years in Frankfurt am Main (Germany), I moved back to my hometown in Spain. Nowadays, I work as a freelance developer, mainly for CryEngine.
